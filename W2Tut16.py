@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 print range(5)
 print range(0,10)
 print range(0,10,2)
