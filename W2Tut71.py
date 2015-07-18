@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 monthNumbers = {'Jan':1, 'Feb':2, 'Mar':3, 1:'Jan', 2:'Feb', 3:'Mar'}
 print monthNumbers
 print monthNumbers['Feb']
