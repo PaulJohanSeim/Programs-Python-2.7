@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class Member(object):
     def __init__(self, founder):
         """ 
