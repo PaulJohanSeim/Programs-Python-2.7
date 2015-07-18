@@ -1,4 +1,6 @@
-## universities
+# Copyright Paul-Johan Seim
+
+# universities
 
 Techs = ['MIT', 'Cal Tech']
 Ivys = ['Harvard', 'Yale', 'Brown']
