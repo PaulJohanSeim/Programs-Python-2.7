@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 def recurMul(a,b):
     if b == 1:
         return a
