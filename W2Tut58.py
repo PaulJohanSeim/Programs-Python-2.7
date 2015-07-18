@@ -1,17 +1,19 @@
-    #Iterative version of counting the length of a string
+# Copyright Paul-Johan Seim
+
+# Iterative version of counting the length of a string
 def lenIter(aStr):
     count=0
     for letter in aStr:
         count+=1
     return count
 
-    #Recursive version of counting the length of a string
+# Recursive version of counting the length of a string
 def lenRecur(aStr):
     while aStr!='':
          return 1 + lenRecur(aStr[1:])
     return 0
 
-    #Recursive version of Bisection of a character in string
+# Recursive version of Bisection of a character in string
 def isIn(char, aStr):
     while True:
         if aStr=='':
