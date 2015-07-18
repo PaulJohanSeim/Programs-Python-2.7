@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 x=int(raw_input('Enter an integer: '))
 ans=0
 while ans**3 < x:
