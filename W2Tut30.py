@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 x=25
 epsilon=0.01
 step=epsilon**2
