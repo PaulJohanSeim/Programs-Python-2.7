@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class Spell(object):
     def __init__(self, incantation, name):
         self.name = name
