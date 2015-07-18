@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class A(object):
     def __init__(self):
         self.a = 1
