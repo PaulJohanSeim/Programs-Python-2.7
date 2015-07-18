@@ -1,4 +1,6 @@
-    #Applying a function to each element in a list
+# Copyright Paul-Johan Seim
+
+# Applying a function to each element in a list
 def applyEachTo(L, x):
     result = []
     for i in range(len(L)):
