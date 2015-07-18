@@ -1,4 +1,6 @@
-        #Problem Set 2.2 - Fixed amount payback Credit card calculation
+# Copyright Paul-Johan Seim
+
+# Fixed amount payback Credit card calculation
         
 balance = 5000.00
 annualInterestRate = 0.2 #In %
