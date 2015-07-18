@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 import datetime
 
 class Person(object):
@@ -98,11 +100,6 @@ def isStudent(obj):
 class TransferStudent(MITPerson):
     pass
 
-# go back and define
-# class Student(MITPerson)
-# change inheritance for UG, Grad and TransferStudent
-# change def isStudent(obj):
-#            return isinstance(obj, Student)
 
 
 
