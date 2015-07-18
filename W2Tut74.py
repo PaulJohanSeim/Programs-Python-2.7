@@ -1,4 +1,6 @@
-    #Find biggest key in a dictionary, i.e. the key that contains the most values
+# Copyright Paul-Johan Seim
+
+# Find biggest key in a dictionary, i.e. the key that contains the most values
 
 def biggest(aDict):
     count=0
