@@ -1,4 +1,7 @@
-                    # Two environments - function in a function
+# Copyright Paul-Johan Seim
+
+# Two environments - function in a function
+
 def square(x):
     return x*x
 def twoPower(x,n):
