@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 a = 10
 def f(x):
     return x + a
