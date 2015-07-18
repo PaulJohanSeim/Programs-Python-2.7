@@ -1,6 +1,4 @@
-#
-# Utility functions for 6.00
-#
+# Copyright Paul-Johan Seim
 
 # A HTML escape code -> text decoding table
 HTML_ESCAPE_DECODE_TABLE = { "#39"   : "\'",
