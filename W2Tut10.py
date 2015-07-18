@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 school = 'Massachusetts Institute of Technology'
 numVowels = 0
 numCons = 0
