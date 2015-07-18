@@ -1,4 +1,6 @@
-                    #Two same boolean functions with either if condition or while condition
+# Copyright Paul-Johan Seim
+
+# Two same boolean functions with either if condition or while condition
 
 def isVowel(char):
     '''
