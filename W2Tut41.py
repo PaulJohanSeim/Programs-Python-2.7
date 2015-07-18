@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 def foo(x):
    def bar(x):
       return x + 1
