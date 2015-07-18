@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 x = float(raw_input('Enter a number: '))
 p = int(raw_input('Enter an integer power: '))
 
