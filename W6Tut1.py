@@ -1,4 +1,6 @@
-                    #  Object Class
+# Copyright Paul-Johan Seim
+
+#  Object Class
 
 class Clock(object):
     def __init__(self, time):
