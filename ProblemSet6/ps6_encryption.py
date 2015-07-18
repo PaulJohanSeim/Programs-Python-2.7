@@ -1,4 +1,4 @@
-# 6.00x Problem Set 6
+# Copyright Paul-Johan Seim
 #
 # Part 1 - HAIL CAESAR!
 
@@ -8,8 +8,7 @@ import random
 WORDLIST_FILENAME = "C:\Python27\Programs\ProblemSet6\words.txt"
 
 # -----------------------------------
-# Helper code
-# (you don't need to understand this helper code)
+
 def loadWords():
     """
     Returns a list of valid words. Words are strings of lowercase letters.
@@ -67,10 +66,6 @@ def randomScrambled(wordList, n):
     wordList: list of words
     n: number of random words to generate and scamble
     returns: a scrambled string of n random words
-
-    NOTE:
-    This function will ONLY work once you have completed your
-    implementation of applyShifts!
     """
     s = randomString(wordList, n) + " "
     shifts = [(i, random.randint(0, 25)) for i in range(len(s)) if s[i-1] == ' ']
@@ -83,12 +78,12 @@ def getStoryString():
     return open("C:\Python27\Programs\ProblemSet6\story.txt", "r").read()
 
 
-# (end of helper code)
+
 # -----------------------------------
 
 
 #
-# Problem 1: Encryption
+# Encryption
 #
 def buildCoder(shift):
     """
@@ -163,9 +158,7 @@ def applyCoder(text, coder):
 def applyShift(text, shift):
     """
     Given a text, returns a new text Caesar shifted by the given shift
-    offset. Lower case letters should remain lower case, upper case
-    letters should remain upper case, and all other punctuation should
-    stay as it is.
+    offset.
 
     text: string to apply the shift to
     shift: amount to shift the text (0 <= int < 26)
@@ -209,24 +202,14 @@ def findBestShift(wordList, text):         #Wordlist is a list of available word
 
 def decryptStory():
     """
-    Using the methods you created in this problem set,
-    decrypt the story given by the function getStoryString().
-    Use the functions getStoryString and loadWords to get the
-    raw data you need.
-
     returns: string - story in plain text
     """
     return applyShift(getStoryString(), findBestShift(wordList, getStoryString()))    
 
-#
-# Build data structures used for entire session and run encryption
-#
 
 if __name__ == '__main__':
-    # To test findBestShift:
+
     wordList = loadWords()
     s = applyShift('Hello, world!', 8)
     bestShift = findBestShift(wordList, s)
-  #  assert applyShift(s, bestShift) == 'Hello, world!'
-    # To test decryptStory, comment the above four lines and uncomment this line:
-    #    decryptStory()
+
