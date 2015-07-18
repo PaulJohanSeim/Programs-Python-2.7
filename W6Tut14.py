@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 import random 
 
 class Hand(object):
