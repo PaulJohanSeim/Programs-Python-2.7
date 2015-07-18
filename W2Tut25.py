@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 iteration = 0
 count = 0
 while iteration < 5:
