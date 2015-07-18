@@ -1,4 +1,6 @@
-            #Weird is not working because of
+# Copyright Paul-Johan Seim
+
+# Weird is not working because of
 class Weird(object):
     def __init__(self, x, y): 
         self.y = y
