@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 num=256
 if num < 0:
     isNeg = True
