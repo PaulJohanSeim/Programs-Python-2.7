@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 s= 'Halloen du kordan gor det'
 NumVow = 0
 NumCo = 0
