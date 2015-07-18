@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class intSet(object):
     """An intSet is a set of integers
     The value is represented by a list of ints, self.vals.
