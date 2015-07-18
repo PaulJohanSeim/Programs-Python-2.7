@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 s='abchjel'
 i=0
 
