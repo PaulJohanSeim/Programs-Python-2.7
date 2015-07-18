@@ -1,4 +1,6 @@
-                        # Problem Set 2.1 - Credit card calculation
+# Copyright Paul-Johan Seim
+
+# Credit card calculation
 
 balance = 5000.00
 annualInterestRate = 0.18
