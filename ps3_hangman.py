@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 
 def wordGuessed(secretWord, lettersGuessed):
     count=0
