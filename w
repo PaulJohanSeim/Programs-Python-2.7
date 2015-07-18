@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 ### decision trees and tree search
 
 ### first version is just a binary tree
