@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 print("Goodbye!")
 
 x=int(raw_input('Enter an integer: '))
