@@ -1,4 +1,6 @@
-        # applyToEach: treating lists and functions to mutate the list
+# Copyright Paul-Johan Seim
+
+# applyToEach: treating lists and functions to mutate the list
 
 def applyToEach(L, f):
     """assumes L is a list, f a function
