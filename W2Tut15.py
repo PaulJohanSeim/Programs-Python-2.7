@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 s='ghfoghoeghoegoegho'
 longest = 0
 # print s
