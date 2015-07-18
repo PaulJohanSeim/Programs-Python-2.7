@@ -1,4 +1,6 @@
-            #Queue class
+# Copyright Paul-Johan Seim
+
+# Queue class
 class Queue(object):
     
     def __init__(self, name):
