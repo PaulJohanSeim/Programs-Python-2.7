@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 count = 0
 for letter in 'Snow!':
     print('Letter # ' + str(count) + ' is ' + str(letter))
