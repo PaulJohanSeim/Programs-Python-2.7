@@ -1,4 +1,6 @@
-    #Problem Set 2.3 - Bisection approach
+# Copyright Paul-Johan Seim
+
+# Problem Set 2.3 - Bisection approach
 
 balance = 5000.00
 annualInterestRate = 0.2 #In %
