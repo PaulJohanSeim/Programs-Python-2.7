@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 count = 0
 phrase = "hello, world"
 for iteration in range(5):
