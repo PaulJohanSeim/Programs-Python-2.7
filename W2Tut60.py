@@ -1,4 +1,6 @@
-    #Use of global variable
+# Copyright Paul-Johan Seim
+
+# Use of global variable
 def fibMetered(x):
     global numCalls
     numCalls += 1
