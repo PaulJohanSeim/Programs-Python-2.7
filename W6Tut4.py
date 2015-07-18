@@ -1,6 +1,8 @@
-     #Class Person
+# Copyright Paul-Johan Seim
 
-class Person (object):            #Class is the keyword, Perosn is the name of the object
+# Class Person
+
+class Person (object):            #Class is the keyword, Person is the name of the object
     def __init__(self, name, age, height, weight):    #Parameters of an object called Person
         self.name = name                    #The underbars signify an magical method
         self.age = age
