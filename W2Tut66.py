@@ -1,4 +1,6 @@
-    #List functions
+# Copyright Paul-Johan Seim
+
+# List functions
 aList = range(1, 6)
 bList = aList
 aList[2] = 'hello'
