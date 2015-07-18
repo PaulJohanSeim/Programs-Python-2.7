@@ -1,4 +1,6 @@
-                        #Built-in functions with Python 2av2
+# Copyright Paul-Johan Seim
+
+# Built-in functions with Python 2av2
 str = 'halloen du'
 print str.index('o')
 
