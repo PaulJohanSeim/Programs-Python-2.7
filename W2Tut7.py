@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 x=int(raw_input('Enter and integer: '))
 for ans in range(0, abs(x)+1):
     if ans**3==abs(x):
