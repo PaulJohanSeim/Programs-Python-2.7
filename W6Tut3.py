@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class Coordinate(object):
     def __init__(self,x,y):
         self.x = x
@@ -5,7 +7,6 @@ class Coordinate(object):
 
     def getX(self):
         # Getter method for a Coordinate object's x coordinate.
-        # Getter methods are better practice than just accessing an attribute directly
         return self.x
 
     def getY(self):
