@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 end=7
 num=0
 co=0
