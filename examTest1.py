@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 class courseInfo(object):
 
     def __init__(self, courseName):
