@@ -1,4 +1,6 @@
-                    #Function of max of three numbers
+# Copyright Paul-Johan Seim
+                    
+# Function of max of three numbers
 
 def clip(lo, x, hi):
     '''
