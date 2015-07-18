@@ -1,4 +1,6 @@
-    #Problem Set 3 - First Issue
+# Copyright Paul-Johan Seim
+
+# First Issue
 def isWordGuessed(secretWord, lettersGuessed):
     count=0
     for char in lettersGuessed:
