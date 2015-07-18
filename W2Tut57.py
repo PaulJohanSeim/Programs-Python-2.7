@@ -1,4 +1,6 @@
-        #Recursion-Palindrome     Divide and Conquer algorithm
+# Copyright Paul-Johan Seim
+
+# Recursion-Palindrome     Divide and Conquer algorithm
 def isPalindrome(s):
 
     def toChars(s):
