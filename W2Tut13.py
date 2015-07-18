@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 s = 'bobobobobobobobob'
 
 count= 0
