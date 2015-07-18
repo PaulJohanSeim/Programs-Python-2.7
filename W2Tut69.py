@@ -1,4 +1,6 @@
-    #Divide each element in a list by 4
+# Copyright Paul-Johan Seim
+
+# Divide each element in a list by 4
                 #From testList = [1, -4, 8, -9]
 def timesFive(a):    #Aims is [5, -20, 40, -45]
     return a*5
