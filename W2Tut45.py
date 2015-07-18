@@ -1,4 +1,6 @@
-                        #Built-in functions with Python 1av2
+# Copyright Paul-Johan Seim
+
+# Built-in functions with Python 1av2
 
 str = 'exterminate!'
 str2 = 'number one - the larch'
