@@ -1,4 +1,6 @@
-            #Newton Raphson method - root of polynomial - mathematical guess
+# Copyright Paul-Johan Seim
+
+# Newton Raphson method - root of polynomial - mathematical guess
 epsilon = 0.01
 y=24.0
 guess=y/2.0
