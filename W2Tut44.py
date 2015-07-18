@@ -1,4 +1,6 @@
-                    #Char in string with 'in' function
+# Copyright Paul-Johan Seim
+
+# Char in string with 'in' function
 
 def isVowel2(char):
     '''
