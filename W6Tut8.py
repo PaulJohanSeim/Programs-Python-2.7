@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 import datetime
 
 class Person(object):
@@ -22,7 +24,7 @@ class Person(object):
         return (datetime.date.today() - self.birthday).days
 
     def __lt__(self, other):
-        """return True if self's ame is lexicographically
+        """return True if self's name is lexicographically
            less than other's name, and False otherwise"""
         if self.lastName == other.lastName:
             return self.name < other.name
