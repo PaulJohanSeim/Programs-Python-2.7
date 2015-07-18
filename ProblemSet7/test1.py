@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# 6.00.1x Problem Set 7
-# RSS Feed Filter
+# Copyright Paul-Johan Seim
 
 import feedparser
 import string
@@ -15,7 +13,6 @@ from Tkinter import *
 
 #======================
 # Code for retrieving and parsing RSS feeds
-# Do not change this code
 #======================
 
 def process(url):
