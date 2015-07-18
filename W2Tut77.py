@@ -1,4 +1,4 @@
-    #Problem Set 3 - Second Issue
+# Second Issue
 def getGuessedWord(secretWord, lettersGuessed):
     '''
     secretWord: string, the word the user is guessing
