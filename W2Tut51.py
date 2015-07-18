@@ -1,4 +1,6 @@
-            #Iteration with power coefficient
+# Copyright Paul-Johan Seim
+
+# Iteration with power coefficient
 
 def iterPower(base, exp):
     '''
