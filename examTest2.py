@@ -127,10 +127,6 @@ class Family(object):
         b -- string that is the name of b
         """
         
-        ## YOUR CODE HERE ####
-
-
-
 m = Member("a")
 m.add_child("b")
 m.add_child("c")
