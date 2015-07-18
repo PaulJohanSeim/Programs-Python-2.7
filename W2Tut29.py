@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 x=float(raw_input('Enter a decimal number between 0 and 1: '))
 p=0
 
