@@ -1,4 +1,6 @@
-                                #Bisection search*
+# Copyright Paul-Johan Seim
+
+# Bisection search*
 x=25                              
 epsilon = 0.01
 numGuesses=0
