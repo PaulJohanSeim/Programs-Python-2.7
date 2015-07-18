@@ -1,4 +1,6 @@
-        #What is the sum of the values in a dictionary
+# Copyright Paul-Johan Seim
+
+# What is the sum of the values in a dictionary
 def howMany(aDict):
     count=0
     for char in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUWXYZ':
