@@ -1,4 +1,6 @@
-    #Remove duplicate numbers in two lists
+# Copyright Paul-Johan Seim
+
+# Remove duplicate numbers in two lists
 def removeDups(L1, L2):
     for e1 in L1:
         if e1 in L2:
