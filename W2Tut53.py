@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 def recurPowerNew(base, exp):
     if exp==0:
         return 1
@@ -6,7 +8,7 @@ def recurPowerNew(base, exp):
     if exp>0 and exp%2==1: # odd
         return base*recurPowerNew(base,exp-1)
 
-def gcdIter(a, b): #Returns the biggest common denominator between two positive numbers
+def gcdIter(a, b): # Returns the biggest common denominator between two positive numbers
     testVal = min(a,b)
     testVal2= max(a,b)
     rest=testVal2%testVal
@@ -19,7 +21,7 @@ def gcdIter(a, b): #Returns the biggest common denominator between two positive 
         c-=1
     return rest
 
-def gcdRecur(a, b): #Recursive method of finding the biggest common denominator with Euclid's law
+def gcdRecur(a, b): # Recursive method of finding the biggest common denominator with Euclid's law
     if b==0:
         return a
     else:
