@@ -1,4 +1,6 @@
-                    #Boolean comparaison without if statement
+# Copyright Paul-Johan Seim
+
+# Boolean comparaison without if statement
 def odd(x):
     '''
     x: int or float.
