@@ -1,3 +1,5 @@
+# Copyright Paul-Johan Seim
+
 num=10
 print('Hello!')
 while num > 0:
