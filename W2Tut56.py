@@ -1,4 +1,6 @@
-        #Recursive used for Hanoi Towers problems
+# Copyright Paul-Johan Seim
+
+# Recursive used for Hanoi Towers problems
 def printMove(fr,to):
     print('move from' + str(fr)+'to' +str(to))
     
@@ -10,7 +12,7 @@ def Towers(n,fr,to,spare):
         Towers(1, fr, to, spare)
         Towers(n-1,spare,to,fr)
         
-    #Fibonacci: rabbits copulation increase-using multiple base cases
+# Fibonacci: rabbits copulation increase-using multiple base cases
 def fib(x):
     assert type(x)==int and x>=0 # Take an expression to check if it is true
     if x==0 or x==1:
