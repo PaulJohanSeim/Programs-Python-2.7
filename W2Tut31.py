@@ -1,4 +1,6 @@
-                        #Guess and search with step size 
+# Copyright Paul-Johan Seim
+
+# Guess and search with step size 
 x = 25
 epsilon = 0.01
 step = 0.1
