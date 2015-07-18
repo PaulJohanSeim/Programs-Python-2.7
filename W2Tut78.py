@@ -1,5 +1,7 @@
-    #Problem Set 3 - Third Issue
-    #Printing out available items
+# Copyright Paul-Johan Seim
+
+# Third Issue
+# Printing out available items
 def getAvailableLetters(lettersGuessed):
     '''
     lettersGuessed: list, what letters have been guessed so far
